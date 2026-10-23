@@ -1,6 +1,6 @@
 cask "mac-butler" do
-  version "0.5.0"
-  sha256 "324327e19069dfccfcfeb73ae55085497e2ed43b32536230a9fb63183104d1a8"
+  version "0.5.1"
+  sha256 "a5cd62aec9dddf31a1da9fcb44c994c54c81e9e1cf144535c4d27190280d6394"
 
   url "https://github.com/mvcompany8500-web/mac-butler/releases/download/v#{version}/MacButler-#{version}.zip"
   name "Mac Butler"
