@@ -1,6 +1,6 @@
 cask "mac-butler" do
-  version "0.3.0"
-  sha256 "6e1e65ae135f9626be326f7326d7c0b7c7023e27ee3f969845eba0241b0a3094"
+  version "0.4.0"
+  sha256 "7ce58d0912f6efd8fb5d299a234fe895d431183e6465ed96a405bb8ca06d711e"
 
   url "https://github.com/mvcompany8500-web/mac-butler/releases/download/v#{version}/MacButler-#{version}.zip"
   name "Mac Butler"
@@ -13,10 +13,6 @@ cask "mac-butler" do
 
   app "MacButler.app"
 
-  # The app is ad-hoc signed (not notarized yet).
-  postflight do
-    system_command "/usr/bin/xattr", args: ["-dr", "com.apple.quarantine", "#{appdir}/MacButler.app"]
-  end
 
   caveats <<~EOS
     1. Install and log in to Claude Code: https://docs.claude.com/en/docs/claude-code/setup
