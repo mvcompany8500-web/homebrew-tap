@@ -1,9 +1,9 @@
 # Homebrew tap
 
 ```bash
-brew install --cask mvcompany8500-web/tap/mac-butler
+brew install --cask mvcompany8500-web/tap/sasarisa
 ```
 
 | Cask | |
 |---|---|
-| [mac-butler](https://github.com/mvcompany8500-web/mac-butler) | Always-listening voice assistant for macOS that hands work to Claude Code |
+| [sasarisa](https://sasarisa.com/) | 사사리사 — say its name and your Mac does it; free voice assistant for macOS (formerly `mac-butler`, which now installs Sasarisa) |
