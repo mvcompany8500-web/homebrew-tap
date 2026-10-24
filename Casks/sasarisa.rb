@@ -8,7 +8,7 @@ cask "sasarisa" do
   desc "Voice assistant: say its name and your Mac does it, coding handed to Claude Code"
   homepage "https://sasarisa.com/"
 
-  depends_on macos: ">= :sonoma"
+  depends_on macos: :sonoma
   depends_on formula: "whisper-cpp"
   depends_on formula: "cliclick"
 
