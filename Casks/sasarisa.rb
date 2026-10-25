@@ -5,7 +5,7 @@ cask "sasarisa" do
   url "https://github.com/mvcompany8500-web/sasarisa/releases/download/v#{version}/Sasarisa-#{version}.zip"
   name "Sasarisa"
   name "사사리사"
-  desc "Voice assistant: say its name and your Mac does it, coding handed to Claude Code"
+  desc "AI assistant you just talk to: name it, say it, your Mac does it"
   homepage "https://sasarisa.com/"
 
   depends_on macos: :sonoma
