@@ -1,6 +1,6 @@
 cask "sasarisa" do
-  version "0.7.4"
-  sha256 "334d224cdfdb9db7ce8b835057bb6c28e4e2f50b3dae928876a853672cad72d6"
+  version "0.7.5"
+  sha256 "3a8116f6793aea028f1d5bbc43c2dfa9ceadfa3153ea484ca1a741273b7c8407"
 
   url "https://github.com/mvcompany8500-web/sasarisa/releases/download/v#{version}/Sasarisa-#{version}.zip"
   name "Sasarisa"
